@@ -57,6 +57,11 @@
 			<artifactId>bson</artifactId>
 			<version>4.9.1</version>
 		</dependency>
+<!--		required a bean named 'mongoTemplate' that could not be found-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
